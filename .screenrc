@@ -13,3 +13,6 @@ escape `e
 # Window list at the bottom. hostname, centered tabs and redmarked active windows:
 hardstatus alwayslastline
 hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+
+# enabled terminal.app to scroll.
+termcapinfo xterm* ti@:te@
