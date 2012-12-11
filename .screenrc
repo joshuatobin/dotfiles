@@ -16,3 +16,6 @@ hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u
 
 # enabled terminal.app to scroll.
 termcapinfo xterm* ti@:te@
+
+# Screen will eat the delete key on OS X without this.
+bindkey -k kD stuff \177
